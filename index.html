@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Оно тебе надо</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="header__menu">
+            <ul class="header__links-list">
+                <li class="header__links-list-item_no-bullit">
+                    <a class="header__link" href="">главная</a></li>
+                <li class="header__links-list-item">
+                    <a class="header__link_active" href="">посмотреть лоты</a></li>
+                <li class="header__links-list-item">
+                    <a class="header__link_active" href="">об аукционе</a></li>
+            </ul>
+        </nav>
+        <div class="header__logo">
+            <img class="header__logo-image">
+        </div>
+        <div class="header_contacts">
+            <a href="+99995555555">+9 999 555 5555</a><br>
+            <a href="info@sobaka.ge">info@sobaka.ge</a><br>
+            <adress class="address header__address">наб. Принсенграхт 263-<br> 265, Амстердам</adress>
+        </div>
+    </header>
+    <main>
+        <section class="cover">
+            <div class="cover__title"></div>
+            <div class="cover__description">
+                <div class="cover__description-text"></div>
+                <button class="bet-button"></button>
+            </div>
+            <div class="overlay"></div>
+        </section>
+        <section class="lots">
+            <div class="lots__heading"></div>
+            <ul class="lots__card-list">
+                <li class="lots__card-list-item">
+                    <a class="card-link">
+                        <article class="card card_type_film">
+                            <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
+                            <article class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</article>
+                            <div calss="overlay"></div>
+                        </article>
+                    </a>
+                </li>
+                <li class="lots__card-list-item">
+                    <a class="card-link">
+                        <article class="card card_type_book">
+                            <h2 class="card__title"></h2>
+                            <article class="card__text"></article>
+                            <div calss="overlay"></div>
+                        </article>
+                    </a>
+                </li>
+                <li class="lots__card-list-item">
+                    <a class="card-link">
+                        <article class="card card_type_picture">
+                            <h2 class="card__title"></h2>
+                            <article class="card__text"></article>
+                            <div calss="overlay"></div>
+                        </article>
+                    </a>
+                </li>
+            </ul>
+            <a class="lots__look-more-link" href="посмотреть больше"></a>
+        </section>
+        <section class="about">
+            <div class="about__column">
+                <div class="about__logo">
+                    <img class="about__logo-immage">
+                </div>
+            </div>
+            <div class="about__column">
+                <h2 class="about__title"></h2>
+                <p class="about__text"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="header_contacts">
+            <a href="+99995555555">+9 999 555 5555</a><br>
+            <a href="info@sobaka.ge">info@sobaka.ge</a><br>
+            <adress class="address header__address">наб. Принсенграхт 263-<br> 265, Амстердам</adress>
+        </div>
+        <nav class="footer__menu">
+            <ul class="footer__links-list">
+                <li class="footer__links-list-item_no-bullit">
+                    <a class="footer__link" href="">главная</a></li>
+                <li class="footer__links-list-item">
+                    <a class="footer__link_active" href="">посмотреть лоты</a></li>
+                <li class="footer__links-list-item">
+                    <a class="footer__link_active" href="">об аукционе</a></li>
+            </ul>
+        </nav>
+        <ul class="footer__social-list">
+            <li class="footer__social-list-item">
+                <a class="footer__social-link"></a>
+                <div class="footer__social-icon"></div>
+            </li>
+            <li class="footer__social-list-item">
+                <a class="footer__social-link"></a>
+                <div class="footer__social-icon"></div>
+            </li>
+            <li class="footer__social-list-item">
+                <a class="footer__social-link"></a>
+                <div class="footer__social-icon"></div>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

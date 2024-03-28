@@ -1,0 +1,183 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header_menu {
+    
+}
+
+.header__links-list {
+    list-style: circle;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__links-list-item {
+
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__link_active {}
+
+.header__logo {}
+
+.header__logo-image {}
+
+.address {}
+
+.header__address {}
+
+
+.cover {
+
+}
+
+.overlay {
+    position: absolute;
+}
+
+.cover__title {}
+
+.aligned-text {}
+
+.aligned-text_center {}
+
+.aligned-text_right {}
+
+.letter-spacing-extended {}
+
+.no-letter-spacing {}
+
+.cover__description {}
+
+.cover__description-text {}
+
+.bet-button {}
+
+
+.lots {
+    width: 1052px;
+    height: 692px;
+}
+
+.lots__heading {}
+
+.lots__card-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lots__card-list-item {}
+
+.card-link {}
+
+.card {
+    background-color: bisque;
+    height: 563px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_type_film {}
+
+.card_type_book {}
+
+.card_type_picture {}
+
+.overlay {}
+
+.card__title {
+    text-decoration: underline;
+    width: 254px;
+}
+
+.card__text {
+    width: 254px;
+}
+
+.lots__look-more-link {}
+
+
+.about {
+
+}
+
+.about__column {}
+
+.about__logo {}
+
+.about__logo-image {}
+
+.about__title {}
+
+.about__text {}
+
+
+.cover {
+
+}
+
+.cover__title {
+
+}
+
+.aligned-text {
+
+}
+
+.aligned-text_center {
+
+}
+
+.aligned-text_right {
+
+}
+
+.letter-spacing-extended {
+
+}
+
+.no-letter-spacing {
+
+}
+
+.cover__description {
+
+}
+
+.footer {
+
+}
+
+.footer__menu {}
+
+.footer__menu-list {}
+
+.footer__menu-list-item {}
+
+.footer__menu-link {}
+
+.footer__menu-link_active {}
+
+.footer__social-list {}
+
+.footer__social-list-item {}
+
+.footer__social-link {}
+
+.footer__social-icon {}
